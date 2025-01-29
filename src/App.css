@@ -1,0 +1,50 @@
+/* تعيين خلفية الصفحة إلى اللون الداكن */
+body {
+    background-color: #222; /* لون رمادي داكن */
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* ضبط نمط العناوين */
+  h2, h5, h6 {
+    color: white;
+  }
+  
+  /* تخصيص الأزرار */
+  .btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #ff6600; /* لون برتقالي */
+    border-color: #ff6600;
+  }
+  
+  .btn-primary:hover {
+    background-color: #cc5500; /* لون برتقالي غامق عند التحويم */
+    border-color: #cc5500;
+  }
+  
+  /* تخصيص كروت الأطعمة */
+  .card {
+    background-color: #333; /* لون رمادي داكن */
+    color: white;
+    border: 1px solid #444;
+  }
+  
+  .card img {
+    border-radius: 8px;
+  }
+  
+  /* تخصيص شريط الاختيار */
+  .btn-group .btn {
+    background-color: #444; /* لون رمادي */
+    color: white;
+  }
+  
+  .btn-group .btn:hover {
+    background-color: #666; /* لون رمادي فاتح عند التحويم */
+  }
+  
